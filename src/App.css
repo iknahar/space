@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Russo+One&display=swap');
+
+
+/* Global Normalization */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  font-family: 'Inter';
+}
+
+/* Hero Section Style  */
+.heroDiv{
+  min-height: 110vh;
+  background-image: url(./img/heroSection.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.heroHeader{
+font-family: 'Russo One';
+font-size: 64px;
+line-height: 78px;
+color: #FFFFFF;
+margin-top: 2rem;
+}
+
+.heroPara{
+font-family: 'Inter';
+font-size: 1.1rem;
+line-height: 29px;
+color: #DADADA;
+margin-top: 1.5rem;
+}
+
+.buttonHero{
+background: linear-gradient(95.48deg, #2317FA -1.25%, #D529E4 97.48%);
+box-shadow: 6px 16px 31px 8px rgba(59, 88, 239, 0.15);
+border-radius: 0px;
+padding: 20px 70px;
+font-family: 'Inter';
+font-size: 14px;
+color: #FFFFFF;
+margin-top: 1rem;
+}
+
+.rightImg{
+  max-width: 110%;
+}
+
+@media (max-width: 1020px){
+  .rightImg {
+    display: none;
+  }
+
+  .heroLeft{
+    width: 100vw;
+  }
+}
+
+.container{
+  width: 1000px;
+}
+
+.ptop{
+font-size: 16px;
+background: linear-gradient(95.79deg, #2317FA -33.63%, #D529E4 97.49%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-shadow: 6px 16px 31px rgba(59, 88, 239, 0.15);
+}
+
+.icon{
+  width: 50px;
+  margin-right: 15px;
+/* height: 41px; */
+}
+
+.top{
+background: #09090941;
+border-radius: 6px;
+padding: 10px;
+}
+
+/* Style for Nav */
+.navbar {
+  background-color: rgba(0,0,0,0.0)!important;
+  padding-top: 2rem;
+}
+
+.nav-link{
+ margin-right: 16px;
+ color: #DADADA;
+}
+
+
+button.outline {
+  padding: 10px 30px;
+  color: #DADADA;
+  border: solid 2px transparent;
+  background-image: linear-gradient(180deg, #6B1EF1 2.55%, #CB28E5 61.82%);
+  box-shadow: 2px 1000px 1px #1e1b3a inset;
+}
+
+
+
+
+button.outline:hover {
+  box-shadow: none;
+  color: white;
+}
+
+/* discover section  */
+.disDiv{
+  background-color: #18163b;
+  padding-bottom: 5rem;
+}
+
+.subHeader{
+font-family: 'Russo One';
+font-size: 38px;
+line-height: 78px;
+color: #FFFFFF;
+padding-top: 5rem;
+}
+
+/* Discard */
+.card{
+  width: 20rem;
+  background: #231E44;
+  padding: 1.2rem;
+}
+
+.card-img-top{
+  width: 100px!important;
+}
+
+.cardTitle{
+  font-family: 'Russo One';
+font-size: 1.3rem;
+color: #FFFFFF;
+text-align: center;
+}
+
+.card-text{
+font-family: 'Inter';
+font-size: 1rem;
+line-height: 22px;
+text-align: center;
+color: #DADADA;
+}
+
+.imgDiv{
+  height: 170px;
+}
+
+
+/* Style for footer  */
+.FooterDiv{
+  background-color:#18163b;
+}
+
+.inputStyle{
+  background: transparent;
+  border: 2px solid #454466!important;
+  padding: 10px 20px;
+  color:#D529E4
+}
+
+.footerP{
+font-size: 12px;
+color: #6E7C9D;
+}
